@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d1a7402a-7795-4b53-9696-4b534fdc11ea" width="228" height="262" alt="image">
+</p>
+
 <img width="1419" height="850" alt="image" src="https://github.com/user-attachments/assets/f14a1337-e9b8-4fe4-b0d9-d02a56ca2bd0" />
 
 ## 1. Proje Genel Hatlarıyla Ne Yapıyor?
