@@ -2,7 +2,7 @@
   <img src="https://github.com/user-attachments/assets/d1a7402a-7795-4b53-9696-4b534fdc11ea" width="228" height="262" alt="image">
 </p>
 
-<img width="1419" height="850" alt="image" src="https://github.com/user-attachments/assets/f14a1337-e9b8-4fe4-b0d9-d02a56ca2bd0" />
+<img width="1035" height="612" alt="image" src="https://github.com/user-attachments/assets/02ac36a5-745b-4baf-8277-ebffc4ca627e" />
 
 ## 1. Proje Genel Hatlarıyla Ne Yapıyor?
 Bu proje, işitme engelli bireylerin iletişim bariyerlerini kaldırmak amacıyla geliştirilmiş **gerçek zamanlı (real-time)** bir yapay zeka mobil uygulamasıdır. 
@@ -45,8 +45,6 @@ Sunumda bu üç teknik engeli nasıl aştığınızı anlatmanız sizi jürinin 
 > **Mühendislik Çözümümüz:** Hafızayı tamamen silmek yerine **"Sliding Window (Kayan Pencere)"** algoritması kurduk. Bellekteki en eski 5 kareyi silip yenilerini ekleyerek sürekli akan bir pencere yarattık. Üzerine bir de **"Güvenlik Eşiği (Threshold)"** ekleyerek, modelin %60'ın altında emin olduğu hareketleri filtreleyip (Hareket analiz ediliyor diyerek) rastgele kelime üretimini engelledik.
 
 # 🧠 Google Colab (Yapay Zeka) Kodlarının Adım Adım Açıklaması
-Bu rapor, jüriye yapay zeka modelini nasıl eğittiğinizi ve yazdığınız Python kodlarındaki mühendislik mantığını açıklamanız için hazırlanmıştır. Projemiz Colab üzerinde iki ana aşamadan (iki ayrı kod dosyasından) oluşmaktadır.
----
 ## BÖLÜM 1: Veri İşleme ve İskelet Çıkarma (`colab_01_extract_landmarks.py`)
 Amacımız: Ağır ".mp4" videolarını yapay zekaya doğrudan verip sistemi çökertmek yerine, videolardaki kişinin sadece "iskeletini" (koordinatlarını) çıkarıp yapay zekaya matematiği öğretmektir.
 ### 1. Drive Bağlantısı ve MediaPipe Kurulumu
