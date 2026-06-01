@@ -18,7 +18,6 @@ Sistem, telefonun kamerasından gelen görüntüleri saniyede 30 kare (FPS) hız
 ---
 ## 3. Kullanılan Kütüphaneler ve Mühendislik Amacımız
 > [!TIP]
-> **Jüriyi Etkileyecek Cümle:** *"Biz yapay zekaya video veya fotoğraf verip telefonu yormadık. İnsanı matematiksel koordinatlara çevirip donanım dostu bir sistem tasarladık."*
 ### Google MediaPipe (Python Tarafında)
 *   **Amacımız:** Yapay zekaya doğrudan ağır ".mp4" videolarını beslemek, telefonun işlemcisini saniyeler içinde eritirdi. Biz MediaPipe kullanarak videolardaki insanı 3 boyutlu bir uzayda **(X, Y, Z)** koordinat noktalarına (landmark) indirdik. Yani yapay zekamız pikselleri değil, saniyede 30 karelik "eklem açılarını" öğrendi.
 ### Keras & TensorFlow (LSTM Ağı)
