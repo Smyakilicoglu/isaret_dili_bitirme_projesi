@@ -1,3 +1,5 @@
+<img width="1419" height="850" alt="image" src="https://github.com/user-attachments/assets/f14a1337-e9b8-4fe4-b0d9-d02a56ca2bd0" />
+
 ## 1. Proje Genel Hatlarıyla Ne Yapıyor?
 Bu proje, işitme engelli bireylerin iletişim bariyerlerini kaldırmak amacıyla geliştirilmiş **gerçek zamanlı (real-time)** bir yapay zeka mobil uygulamasıdır. 
 Sistem, telefonun kamerasından gelen görüntüleri saniyede 30 kare (FPS) hızında analiz eder, ekrandaki kişinin vücut iskeletini (pose) çıkartır ve bu hareket dizilimini yapay zeka modeline besleyerek o an yapılan işaret dilindeki kelimeyi anında ekrana yansıtır. Sistemin en büyük avantajı **internetsiz (offline)** çalışabilmesidir; tüm yapay zeka hesaplamaları telefonun kendi işlemcisi üzerinde gerçekleşir.
